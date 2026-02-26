@@ -9,7 +9,7 @@ const HeroCarousel = () => {
       modules={[Autoplay]}
       autoplay={{ delay: 3000 }}
       loop={true}
-      className="h-screen"
+      className="h-[72vh]"
     >
       <SwiperSlide>
         <img
